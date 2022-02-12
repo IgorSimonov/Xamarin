@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinApplication.View;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 
@@ -11,7 +12,6 @@ namespace XamarinApplication
         public App()
         {
             InitializeComponent();
-
             MainPage = new MainPage();
         }
 
